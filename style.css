@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(0, 0, 7);
+    background-color: #FFFFFF;
 }
 .topnav {
     background-color: #222222;
@@ -57,7 +57,7 @@ body {
     position: fixed;
     right: 0;
     top: 0;
-    background-color: #222222;
+    /* background-color: #222222; */
     padding-top: 60px;
 }
 
@@ -65,19 +65,25 @@ body {
     padding: 10px 15px;
     text-decoration: none;
     font-size: 26px;
-    color: #fff;
+    /* color: #fff; */
    
     margin-left: 22%;
     
 }
 #hora{
-    margin-left: 32%;
+    margin-left: 36%;
+    font-size: 22px;
+}
+
+#AlertsTitle{
+    margin-top: 10%;
+    margin-left: 40%;
     font-size: 22px;
 }
 
 .sidenav h2 {
     margin-left: 20px;
-    color: #fff;
+    /* color: #fff; */
     text-decoration: none;
     margin-left: 40%;
 }
@@ -88,14 +94,14 @@ body {
 
 
 #temp{
-    color: white;
+    
     font-size: 130px;
     margin-left: 29%;
     margin-top: 15%;
 }
 
 #ceu{
-    color: white;
+   
     margin-left: 32%;
     
 }
